@@ -26,7 +26,7 @@ def nl2br(text):
 
 @app.route('/')
 def index():
-    return render_template('chat.html')
+    return render_template('index.html')
 
 @app.route('/chat', methods=['POST'])
 def chat():
